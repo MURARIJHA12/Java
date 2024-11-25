@@ -6,7 +6,7 @@ public class Question03 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Scanner src=new Scanner(System.in);
-		System.out.println("Enter the String:");
+		System.out.println("Enter the words:");
 		String str=src.nextLine().toLowerCase();
 		//String str2;
 		int flag = 1;
@@ -14,7 +14,9 @@ public class Question03 {
 		while(first<last) {
 			if(str.charAt(first)!=str.charAt(last)) {
 				flag = 0;
+
 				break;
+			}
 			first++;
 			last--;
 		}
@@ -25,7 +27,6 @@ public class Question03 {
 		else {
 			System.out.println("Not palindrome");
 		}
-	}
 
-}
+	}
 }
