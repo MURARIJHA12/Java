@@ -10,6 +10,7 @@ public class oops {
     }
 }
 class pen{
+    
     String color;
     int tip;
     void setcolor(String newcolor){
